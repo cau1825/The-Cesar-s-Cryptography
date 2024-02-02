@@ -16,6 +16,7 @@ def descifradoCesar13(MensajeInputCifrado):
     mensaje = MensajeInputCifrado
     #La variable diccionario cuenta con las letras del alfabeto
     diccionario="abcdefghijklmnopqrstuvwxtz"
+    
     #La variable auxiliar nos permite guardar la iteraccion para crear el mensaje encriptado
     auxiliar=""
     for i in mensaje:
@@ -24,5 +25,5 @@ def descifradoCesar13(MensajeInputCifrado):
     print(auxiliar)
 
 if __name__ == "__main__":
-   cifradoCesar13(input("Escriba su mensaje sin espacios ni la letra ñ: "))
- #descifradoCesar13("pbzbrfgnf")
+   #cifradoCesar13(input("Escriba su mensaje sin espacios ni la letra ñ: "))
+   #descifradoCesar13("ubtn")
